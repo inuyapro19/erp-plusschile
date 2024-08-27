@@ -1,0 +1,45 @@
+// Travels.js
+import BusesIndexComponent from '../app/buses/Index.vue';
+import BusesCreateComponent from '../app/buses/Create.vue';
+import BusesEditComponent from '../app/buses/Edit.vue';
+import BusesCertificadosComponent from '../app/buses/createCertificadosMantencion.vue';
+import BusesCertificadosIndexComponent from '../app/buses/CertificadosIndex.vue';
+import ConfiguracionNotificaciones from '../app/notificaciones/EditNotifications.vue';
+import TripulacionIndex from '../app/tripulacion/Index.vue';
+import JefeMaquina from '../app/tripulacion/Jefemaquina.vue';
+import GestionTripulacion from '../app/tripulacion/Gestion.vue';
+import ViajesCreate from '../app/viajes/CreateViaje.vue';
+import ViajesIndex from '../app/viajes/IndexViajes.vue';
+import DestinosIndex from '../app/destinos/IndexDestinos.vue';
+import ClientesIndex from '../app/clientes/IndexCliente.vue';
+import RutasIndex from '../app/ruta/Index.vue';
+import MontoEntregadoIndex from '../app/viajes/MontoEntregados.vue';
+import GastosViajesIndex from '../app/gastos/Index.vue';
+import PasajeViajesIndex from '../app/pasajes/Index.vue';
+import DocumentosViajeIndex from '../app/documentosViajes/DocumentoViajeIndex.vue';
+import EgresoCajaIndex from '../app/egresoCaja/Index.vue';
+import BaseInformes from '../app/reportes/BaseInformes.vue';
+import MontoPredeterminado from '../app/viajes/configuracion/MontoPrederterminadoIndex.vue';
+
+Vue.component('buses-index-component', BusesIndexComponent);
+Vue.component('buses-create-component', BusesCreateComponent);
+Vue.component('buses-edit-component', BusesEditComponent);
+Vue.component('buses-certificados-component', BusesCertificadosComponent);
+Vue.component('buses-certificados-index-component', BusesCertificadosIndexComponent);
+Vue.component('configuracion-notificaciones', ConfiguracionNotificaciones);
+Vue.component('tripulacion-index', TripulacionIndex);
+Vue.component('jefe-maquina', JefeMaquina);
+Vue.component('gestion-tripulacion', GestionTripulacion);
+Vue.component('viajes-create', ViajesCreate);
+Vue.component('viajes-index', ViajesIndex);
+Vue.component('destinos-index', DestinosIndex);
+Vue.component('clientes-index', ClientesIndex);
+Vue.component('rutas-index', RutasIndex);
+Vue.component('monto-entregado-index', MontoEntregadoIndex);
+Vue.component('gastos-viajes-index', GastosViajesIndex);
+Vue.component('pasaje-viajes-index', PasajeViajesIndex);
+Vue.component('documentos-viaje-index', DocumentosViajeIndex);
+Vue.component('egreso-caja-index', EgresoCajaIndex);
+Vue.component('reportes-sistema-index', BaseInformes);
+Vue.component('monto-predeterminado-index', MontoPredeterminado);
+

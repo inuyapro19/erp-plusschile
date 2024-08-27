@@ -1,0 +1,45 @@
+export default {
+    contactoForm: {
+        id:'',
+        nombre:'',
+        apellido:'',
+        telefono:'',
+        correo:'',
+        direccion:'',
+        region_id:'',
+        comuna_id:'',
+        parentesco:'',
+        otro_parentesco:'',
+    },
+    contacto:[],
+    maximo_contacto:0,
+    mostraragregarContacto:true,
+    mostareditarContacto:false,
+    perfilContacto:[
+        {
+            id:'',
+            nombre:'',
+            apellido:'',
+            telefono:'',
+            correo:'',
+            direccion:'',
+            region_id:'',
+            comuna_id:'',
+            parentesco:'',
+            otro_parentesco:'',
+        },
+        {
+            id:'',
+            nombre:'',
+            apellido:'',
+            telefono:'',
+            correo:'',
+            direccion:'',
+            region_id:'',
+            comuna_id:'',
+            parentesco:'',
+            otro_parentesco:'',
+        }
+    ],
+
+}
